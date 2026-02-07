@@ -19,7 +19,7 @@ export default async function Home() {
 			<section className='relative overflow-hidden py-32'>
 				<div className='container mx-auto px-4'>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
-						<div className='space-y-8'>
+						<div className='order-2 lg:order-1 space-y-8'>
 							<Badge
 								variant='outline'
 								className='bg-emerald-900/30 border-emerald-700/30 px-4 py-2 text-emerald-400 text-sm font-medium'>
@@ -52,7 +52,7 @@ export default async function Home() {
 							</div>
 						</div>
 
-						<div className='h-[300px] md:h-[400px] lg:h-[500px] rounded-xl'>
+						<div className='order-1 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px] rounded-xl'>
 							<div className='relative overflow-hidden h-full aspect-auto'>
 								<Image
 									src='/banner_doctor.png'
